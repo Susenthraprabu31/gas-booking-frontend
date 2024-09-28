@@ -36,7 +36,7 @@ const Login = () => {
     };
     try {
       const res = await axios.post(
-        "http://localhost:8000/gas/loginUser",
+        "https://gas-booking-backend.onrender.com/gas/loginUser",
         payload
       );
       setMessage(res.data.message);
