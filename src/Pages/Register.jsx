@@ -88,7 +88,7 @@ const Register = () => {
               <Form>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
-                    Your Name:
+                    Your Name : 
                   </label>
                   <Field
                     type="text"

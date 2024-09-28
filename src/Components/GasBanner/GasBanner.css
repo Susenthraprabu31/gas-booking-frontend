@@ -1,5 +1,5 @@
 .gasBanner {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 195, 255);
     background: linear-gradient(to right, rgba(0, 0, 0, 0.821), rgba(0, 0, 255, 0.229)), url(./gasbanner.jpg) no-repeat center !important;
     background-size: cover !important;
     align-items: center !important;
