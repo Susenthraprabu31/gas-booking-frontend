@@ -1,0 +1,51 @@
+
+
+.font-curv {
+    font-family: "Satisfy", cursive !important;
+}
+
+.text-violet {
+    color: #ff4400 !important;
+}
+
+.bg-violet {
+    background-color: #ff0000 !important;
+    border: 2px solid #ff3300 !important;
+}
+
+.bg-violet:hover {
+    background-color: white !important;
+    border: spx solid #ff0e01 !important;
+    color: #ff5e00 !important;
+}
+
+.Plesantgas {
+    width: 100% !important;
+    border-radius: 30px !important;
+   
+}
+
+.fa-circle-down{
+    color: #ff2e04 !important;
+    font-size: 20px;
+}
+
+.fa-circle-down:hover{
+    color: #ff008c !important;
+}
+
+
+@media (max-width: 76px) {
+    .desc {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        margin-top: 50px;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}

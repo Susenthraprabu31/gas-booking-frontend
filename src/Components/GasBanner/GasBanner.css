@@ -1,0 +1,10 @@
+.gasBanner {
+    color: rgb(255, 0, 0);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.821), rgba(0, 0, 255, 0.229)), url(./gasbanner.jpg) no-repeat center !important;
+    background-size: cover !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 600px !important;
+    display: flex !important;
+   
+}

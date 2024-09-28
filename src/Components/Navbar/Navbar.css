@@ -1,0 +1,45 @@
+
+.navbar{
+    background-color: #ff0000 !important;
+}
+.navbar-brand {
+    font-family: "Satisfy", cursive !important;
+    color: #ffffff !important;
+    font-size: 30px !important;
+    font-weight: 580 !important;
+    font-style: normal;
+    padding: 2px 15px !important;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.navbar-collapse {
+    align-items: center !important;
+    justify-content: end !important;
+    width: 100%;
+    margin-right: 38% !important;
+}
+
+.sticky-header {
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.register {
+    padding-left: 10px !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+@media screen and (max-width:768px) {
+    .register {
+        padding-left: 0% !important;
+    }
+}
