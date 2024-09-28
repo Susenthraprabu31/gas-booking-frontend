@@ -30,7 +30,7 @@ const IconCards = () => {
       icon: "fa-solid fa-globe text-primary px-2",
       title: "Wide Network",
       paragraph:
-        "With a broad network of partnered gas stations, CloudNiine offers extensive coverage, ensuring users can find and book slots at convenient locations.",
+        "With a broad network of partnered gas stations, PlesantEnergy offers extensive coverage, ensuring users can find and book slots at convenient locations.",
     },
     {
       icon: "fa-solid fa-indian-rupee-sign text-primary px-2",
