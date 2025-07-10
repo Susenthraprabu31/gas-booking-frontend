@@ -65,6 +65,7 @@ const Register = () => {
       navigate("/sign-in");
     },500);
   };
+  
 
   return (
     <div className="container p-2 mt-5 mb-5 reg-box">

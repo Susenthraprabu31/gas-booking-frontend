@@ -42,7 +42,7 @@ const Login = () => {
       setMessage(res.data.message);
       setTimeout(() => {
         navigate("/home");
-      }, 1500);
+      },);
     } catch (error) {
       console.log(error);
       setMessage(error.response?.data?.message || "An error occurred");
@@ -54,8 +54,7 @@ const Login = () => {
     <div className="container p-2 mt-5 mb-5 reg-box">
       <h2 className="text-primary mb-4 text-center">
         Login to Continue &nbsp;
-       
-      </h2>
+       </h2>
       <div className="row align-items-center justify-content-center m-3">
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="login-img text-center">
